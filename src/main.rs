@@ -28,6 +28,13 @@ fn main()
 
     io::stdout().flush();
     let mut list = args.get_str("--list");
+    let mut split = list.split(";");
+    for s in split
+    {
+        println!("{}", s);
+    }
+    //let vec: Vec<&str> = split.collect();
+
     // TODO: Parse string: s1,p1
     // TODO: Parse element s1 p1 en multiply
     // TODO: calculate average
