@@ -2,6 +2,7 @@ extern crate docopt;
 
 use docopt::Docopt;
 
+const VERSION: &'static str = "0.1.0";
 const USAGE: &'static str = "
 avg_price
 
@@ -21,6 +22,12 @@ fn main()
     let args = Docopt::new(USAGE)
         .and_then(|dopt| dopt.parse())
         .unwrap_or_else(|e| e.exit());
+
+    if args.get_bool("--version")
+    {
+        println!("avg_price v{}", VERSION);
+        std::process::exit(0);
+    }
     
     struct SharesPrice
     {
