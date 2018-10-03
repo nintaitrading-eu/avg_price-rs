@@ -5,3 +5,4 @@ Command line application, that can calculate the average price paid for a stock,
 == Build status
 
 avg_price-rs-develop: image:https://travis-ci.org/nintaitrading-eu/avg_price-rs.svg?branch=avg_price-rs-develop["Build Status", link="https://travis-ci.org/nintaitrading-eu/avg_price-rs"]
+avg_price-rs-release: image:https://travis-ci.org/nintaitrading-eu/avg_price-rs.svg?branch=avg_price-rs-release["Build Status", link="https://travis-ci.org/nintaitrading-eu/avg_price-rs"]
