@@ -8,13 +8,13 @@ Command line application, that can calculate the average price paid for a stock,
 
 |==============================
 | branch | build status
-| avg_price-rs-develop | image:https://travis-ci.com/nintaitrading-eu/avg_price-rs.svg?branch=avg_price-rs-develop["Build Status", link="https://travis-ci.com/nintaitrading-eu/avg_price-rs"]
-| avg_price-rs-release | image:https://travis-ci.com/nintaitrading-eu/avg_price-rs.svg?branch=avg_price-rs-release["Build Status", link="https://travis-ci.com/nintaitrading-eu/avg_price-rs"]
+| avg_price-rs-develop | image:https://travis-ci.org/nintaitrading-eu/avg_price-rs.svg?branch=avg_price-rs-develop["Build Status", link="https://travis-ci.org/nintaitrading-eu/avg_price-rs"]
+| avg_price-rs-release | image:https://travis-ci.org/nintaitrading-eu/avg_price-rs.svg?branch=avg_price-rs-release["Build Status", link="https://travis-ci.org/nintaitrading-eu/avg_price-rs"]
 |==============================
 
 == Release
 
 |==============================
 | date | version
-| 2018-10-03 | link:https://github.com/nintaitrading-eu/avg_price-rs/tree/0.1.0[v0.1.0]
+| 2018-10-03 | link:https://github.org/nintaitrading-eu/avg_price-rs/tree/0.1.0[v0.1.0]
 |==============================
