@@ -46,10 +46,14 @@ fn main()
     }
     let mut enumerator: f64 = 0.0;
     let mut denominator: i32 = 0;
+    let mut shares_total: i32 = 0;
     for (_i, item) in vec.iter().enumerate()
     {
         enumerator = enumerator + (item.shares as f64) * item.price;
         denominator = denominator + item.shares;
+        shares_total = shares_total + item.shares;
     }
-    print!("Result = {}/{} = {}", enumerator, denominator, enumerator/(denominator as f64));
+    let avg_value = enumerator/(denominator as f64);
+    println!("Result = {}/{} = {}", enumerator, denominator, avg_value);
+    println!("Value = {}*{} = {}", (shares_total as f64), avg_value, (shares_total as f64) * avg_value);
 }
