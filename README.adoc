@@ -16,6 +16,6 @@ Command line application, that can calculate the average price paid for a stock,
 
 |==============================
 | date | version
-| 2018-10-03 | link:https://github.org/nintaitrading-eu/avg_price-rs/tree/0.1.0[v0.1.0]
-| 2019-07-05 | link:https://github.org/nintaitrading-eu/avg_price-rs/tree/0.2.0[v0.2.0]
+| 2018-10-03 | link:https://github.com/nintaitrading-eu/avg_price-rs/releases/tag/0.1.0[v0.1.0]
+| 2019-07-05 | link:https://github.com/nintaitrading-eu/avg_price-rs/releases/tag/0.2.0[v0.2.0]
 |==============================
