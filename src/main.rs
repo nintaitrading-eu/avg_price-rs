@@ -2,7 +2,7 @@ extern crate docopt;
 
 use docopt::Docopt;
 
-const VERSION: &'static str = "0.1.0";
+const VERSION: &'static str = "0.2.0";
 const USAGE: &'static str = "
 avg_price
 
